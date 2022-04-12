@@ -1,0 +1,49 @@
+.Section{
+   display: flex;
+   margin: 10px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #000;
+}
+.Rating{
+   display: flex;
+   flex-direction: column;
+   text-align:right;
+   margin-right: 10px;
+   min-width: 100px;
+}
+.Question{
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+}
+.Question-title{
+   margin-bottom: 3px;
+   font-size: 18px;
+   color: #0074CC;
+}
+.Question-summary{
+   margin-bottom: 3px;
+}
+.Question-bottom{
+   display: flex;
+   justify-content: space-between;
+}
+.Tags{
+   display: flex;
+   height: 35px;
+}
+.Tag{
+   margin: 5px 15px 5px 0;
+   padding: 0 7px;
+   background-color: #D0E3F1;
+   color: #2C5877;
+   cursor: pointer;
+   border-radius: 3px;
+}
+.info{
+   display: flex;
+}
+.Username{
+   color: #0074CC;
+   margin-right: 2px;
+}
