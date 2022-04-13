@@ -1,0 +1,21 @@
+.flexContainer{
+    
+   display:flex;
+   flex-direction: column;
+   border: 1px solid black;
+   border-radius: 10px;
+   margin:30px 5px;
+   padding:10px;
+   background-color: rgb(237, 243, 246);
+}
+
+
+.flexContainer div{
+    padding:5px;
+    color:gray;
+}
+
+a{
+    text-decoration: none;
+}
+
