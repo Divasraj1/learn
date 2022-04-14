@@ -1,10 +1,10 @@
 .sidebar{
 
-    margin: 0;
-    padding: 0;
+    margin: 0 8px;
+    padding: 0px 5px;
     width: 20%;
     background-color: #ffffff;
-    
+    border-right: 1px solid gray;
     height: 100%;
     overflow: auto;
 
@@ -21,4 +21,14 @@ ul a {
     padding: 8px;
     text-decoration: none;
     font-weight:400;
+}
+
+li{
+    transition: transform .4s;
+}
+li:hover{
+    border-radius: 8px;
+    background-color: rgba(208, 208, 208, 0.404);
+    cursor: pointer;
+    transform: scale(1.1);
 }

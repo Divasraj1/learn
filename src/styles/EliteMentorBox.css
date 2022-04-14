@@ -1,0 +1,19 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: transform .4s; 
+}
+.box:hover {
+    transform: scale(1.1);
+  }
