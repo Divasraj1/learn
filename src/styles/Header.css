@@ -10,12 +10,14 @@
     flex-direction: row;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    background-color: #524ff3ab;
 }
 .title{
     font-family: 'Pacifico', cursive;
-    font-size: 18px;
+    font-size: 20px;
     margin-left:220px;
     padding-right: 10px;
+    color: white;
 }
 .menu-items{
     display: flex;
@@ -34,9 +36,12 @@
     padding-left: 10px;
     display: flex;
     align-items: center;
+    
 }
 .search-bar-container > input{
     padding: 7px 50em 7px 30px;
+    border-radius: 20px;
+    border: none;
 }
 .search-bar-container > .MuiSvgIcon-root{
     padding-left: 5px;

@@ -24,7 +24,7 @@
 .Question-title{
    margin-bottom: 3px;
    font-size: 18px;
-   color: #0074CC;
+   color: #332FD0;
 }
 .Question-summary{
    margin-bottom: 3px;
@@ -40,8 +40,8 @@
 .Tag{
    margin: 5px 15px 5px 0;
    padding: 0 7px;
-   background-color: #D0E3F1;
-   color: #2C5877;
+   background-color: #524ff3ab;
+   color: white;
    cursor: pointer;
    border-radius: 3px;
 }

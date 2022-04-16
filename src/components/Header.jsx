@@ -20,16 +20,16 @@ function header() {
         </div>
         <div className='menu-items'>
             <div className='profile header-icon'>
-                <AccountCircleOutlinedIcon/>
+                <AccountCircleOutlinedIcon style={{ color: 'white' ,fontSize: 35}}/>
             </div>
             <div className='messages header-icon'>
-                <ForumOutlinedIcon/>
+                <ForumOutlinedIcon style={{ color: 'white' ,fontSize: 35 }}/>
             </div>
             <div className='badges-acheivements header-icon'>
-                <EmojiEventsOutlinedIcon />
+                <EmojiEventsOutlinedIcon style={{ color: 'white' ,fontSize: 35 }} />
             </div>
             <div className='help header-icon'>
-                <HelpOutlineOutlinedIcon />
+                <HelpOutlineOutlinedIcon style={{ color: 'white',fontSize: 35 }}/>
             </div>
         </div>
     </div>
